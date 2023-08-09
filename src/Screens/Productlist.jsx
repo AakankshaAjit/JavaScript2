@@ -17,7 +17,6 @@ const Productlist = () => {
   };
   useEffect(() => {
     fetch_data();
-    console.log(id);
   }, []);
 
   return (
